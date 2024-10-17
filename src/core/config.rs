@@ -258,7 +258,7 @@ pub(super) struct Server {
     #[serde(rename = "server password")]
     pub(super) server_password: Option<String>,
 
-    #[serde(default = "mk_true", rename = "TLS")]
+    #[serde(default = "mk_true")]
     pub tls: bool,
 
     #[serde(default)]
